@@ -4,7 +4,7 @@
 
 ## Scope
 
-The supplied sources include PyTorch IP-Net training notebooks, neural-network architecture and hyperparameter studies, a Torch-to-JAX weight export, the trained 14-Debye-pole model, and original arrays/images related to manuscript Figures 2–8. The release reorganizes these into runnable core scripts, supplementary research notebooks, pretrained weights, results, figures, and documentation. It does **not** add unavailable electromagnetic modeling source code or fabricate missing experiment configuration files.
+The supplied sources include PyTorch IP-Net training notebooks, neural-network architecture and hyperparameter studies, a Torch-to-JAX weight export, the trained 14-Debye-pole model, and original arrays/images related to manuscript Figures 2–8. The release reorganizes these into runnable core scripts, supplementary research notebooks, pretrained weights, results, figures, and documentation. 
 
 **Manuscript context:** fast three-dimensional transient electromagnetic modeling with induced polarization effects (**TEM-IP**), using self-supervised Cole–Cole-to-multi-Debye mapping and matrix-free sensitivities.
 
