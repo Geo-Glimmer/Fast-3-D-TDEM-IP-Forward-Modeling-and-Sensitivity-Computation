@@ -1,0 +1,10 @@
+-r requirements.txt
+# Optional dependencies for training and legacy research notebooks.
+torch>=2.0
+scipy>=1.10
+tqdm>=4.60
+optuna>=3.0
+pandas>=2.0
+scikit-rf>=0.30
+jupyterlab>=4.0
+ipykernel>=6.0

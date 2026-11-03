@@ -1,0 +1,22 @@
+checkpoint_path,inferred_poles,width,fourier_features,residual_blocks,tensor_count,role
+models/experiments/model_export/jax_ip_model_10poles.npz,10,512,128,2,21,research variant
+models/experiments/model_export/jax_ip_model_12poles.npz,12,256,128,6,53,research variant
+models/experiments/model_export/model_trained-50000.pth,14,512,64,4,37,research variant
+models/experiments/model_export/model_trained.pth,12,256,128,6,53,research variant
+models/experiments/pole_count/06/jax_ip_model_6poles.npz,6,256,256,6,53,research variant
+models/experiments/pole_count/06/jax_ip_model_8poles.npz,8,256,128,6,53,research variant
+models/experiments/pole_count/06/model_trained.pth,16,256,128,5,56,research variant
+models/experiments/pole_count/08/jax_ip_model_8poles.npz,8,256,128,6,53,research variant
+models/experiments/pole_count/08/model_trained.pth,8,256,128,6,53,research variant
+models/experiments/pole_count/10/jax_ip_model_14poles.npz,14,256,128,6,53,research variant
+models/experiments/pole_count/10/model_trained.pth,10,256,128,6,53,research variant
+models/experiments/pole_count/12/jax_ip_model_12poles.npz,12,256,128,6,53,research variant
+models/experiments/pole_count/12/model_trained.pth,12,256,128,6,53,research variant
+models/experiments/pole_count/14/jax_ip_model_14poles.npz,14,256,128,6,53,research variant
+models/experiments/pole_count/14/model_trained.pth,14,256,128,6,53,research variant
+models/experiments/training_size/model_trained-10000.pth,14,512,64,4,37,research variant
+models/experiments/training_size/model_trained-15000.pth,10,512,128,2,21,research variant
+models/experiments/training_size/model_trained-20000.pth,14,512,64,4,37,research variant
+models/experiments/training_size/model_trained-50000.pth,14,512,64,4,37,research variant
+models/ipnet_14poles_100k_jax.npz,14,512,64,4,37,yes
+models/ipnet_14poles_100k_torch.pth,14,512,64,4,37,yes

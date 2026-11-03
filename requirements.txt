@@ -1,0 +1,5 @@
+# Core JAX inference and numeric spectral verification. Install CUDA JAX separately
+# using the official JAX documentation for your CUDA/toolkit combination.
+numpy>=1.24
+jax>=0.4
+matplotlib>=3.7

@@ -1,0 +1,15 @@
+file,array_key,shape,dtype,interpretation
+results/figure_04/results_compare_electric_wire.npz,jax,"(5, 40)",float32,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_electric_wire.npz,simpeg,"(5, 40)",float64,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_half.npz,jax,"(4, 40)",float32,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_half.npz,simpeg,"(4, 40)",float64,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_magnetic_loop.npz,jax,"(5, 41)",float32,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_magnetic_loop.npz,simpeg,"(5, 41)",float64,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_sky.npz,jax,"(4, 41)",float32,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_04/results_compare_sky.npz,simpeg,"(4, 41)",float64,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_05/Jvec_compare_magnetic_loop.npz,jax,"(249104,)",float64,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_05/Jvec_compare_magnetic_loop.npz,simpeg,"(12,)",float64,Stored numerical output. Source units/axes are not encoded unless separately documented.
+results/figure_07/ip_data.npy,(array),"(187, 41)",float64,Stored numerical output.
+results/figure_07/no_ip_data.npy,(array),"(187, 41)",float64,Stored numerical output.
+results/figure_08/grad.npy,(array),"(519136,)",float64,Stored numerical output.
+results/legacy/pole_count/12/trf_train_data_saved.npy,(unreadable without pickle),unknown,object?,Object NPY requires pickle; deliberately not loaded.
