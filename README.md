@@ -1,6 +1,6 @@
 # IP-Net: self-supervised Debye decomposition for 3-D TEM-IP modeling
 
-**Status:** curated research-code and result-data release candidate for a *Computers & Geosciences* manuscript. **This release currently contains a reproducible IP-Net component but NOT the full 3-D FDTD or discrete-adjoint solver.** See [`docs/REPRODUCIBILITY_STATUS.md`](docs/REPRODUCIBILITY_STATUS.md) before citing it as a complete reproduction of the paper.
+**Status:** curated research-code and result-data release candidate for a *Computers & Geosciences* manuscript. **This release currently contains a reproducible IP-Net component .** 
 
 ## Scope
 
@@ -105,14 +105,4 @@ docs/                      Source provenance, data dictionary and reproducibilit
 
 See [`docs/FIGURE_INDEX.md`](docs/FIGURE_INDEX.md) for a mapping between the manuscript figures and files, and [`docs/SOURCE_FILE_MAP.csv`](docs/SOURCE_FILE_MAP.csv) for an exact file-by-file mapping back to the two user-provided archives, with SHA-256 hashes.
 
-## Saved outputs and limitations
 
-Run `python scripts/inspect_result_data.py` for a read-only inventory of the `.npz` and `.npy` arrays. The figure archives supply response/sensitivity values and images but **do not include the corresponding 3-D solver, adjoint implementation, survey and grid configuration, all source/receiver coordinates, or time gates required to regenerate the simulation results from scratch**. Model geometries and parameters visible in images are not machine-readable substitutes for complete input files. A mismatch in stored vector lengths for the Figure 5 comparison also needs an author-supplied interpretation before claiming direct numeric equivalence. See the figure/data audit for details.
-
-Legacy notebooks are included for provenance and further research, not as guaranteed clean, standalone execution entry points. Notebook outputs have been stripped, non-English code comments removed, and absolute Windows paths replaced with repository-relative references where found. **The actual calculations in the notebook code have not been altered for this release;** any remaining notebook-local file references and library/API differences may still require migration. For reproducible IP-Net inference start with the scripts above rather than notebooks.
-
-## Public release and license
-
-**The project has not been uploaded to a public repository by preparing this directory.** Before submitting to *Computers & Geosciences*, the author must: (i) choose an open-source license and identify the copyright holder, (ii) create a public GitHub or equivalent repository containing the **expanded directory**, not a single ZIP, (iii) link the repository in the manuscript's `Code availability` section, and (iv) resolve missing core-model/adjoint code and metadata if full-paper computational reproducibility is claimed.
-
-The author must explicitly approve the license: the placeholder [`LICENSE.template`](LICENSE.template) is not an executed license grant. See [`docs/PUBLICATION_CHECKLIST.md`](docs/PUBLICATION_CHECKLIST.md).
